@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi pequeño secreto - contacto</title>
+        <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    </head>
+    <body>
+      <!--mapa de navegacion-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+          <a class="navbar-brand" href="#">Mi pequeño secreto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reserva.html">Reserva</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Contáctenos</h2>
+
+        <form onsubmit="contactar(event)">
+            
+            <div class="mb-3">
+                <label class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>  
+
+            <div class="mb-3">
+                <label class="form-label">E-Mail:</label>
+                <input type="email" class="form-control" id="correo">
+            </div>  
+
+            <div class="mb-3">
+                <label class="form-label">Mensaje:</label>
+                <textarea id="mensaje" class="form-control" rows="4"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success mt-3">
+                    Enviar
+                </button>
+            </div>
+
+        </form>
+    </div>
+    <footer class="bg-success text-white text-center py-4 mt-5">
+            <div class="container">
+                <h5 class="mb-3">Síguenos en redes sociales</h5>
+                <div class="d-flex justify-content-center gap-4">
+                <a href="#" class="social-icon">
+                  <img src="images/facebook.jpeg" alt="Facebook" width="40">
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="images/insta.jpeg" alt="Instagram" width="40">
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="images/twtter.jpeg" alt="Twitter" width="40">
+                </a>
+                </div>
+                <p class="mt-3 mb-0">
+                © 2026 Mi pequeño secreto
+                </p>
+
+            </div>
+        </footer>
+        
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/appcontactar.js"></script>
+
+
+
+  </body>
+
+</html>
